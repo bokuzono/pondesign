@@ -1,0 +1,115 @@
+/* 共通 */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+  }
+
+html { 
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 8.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex_box {
+    display: flex;
+}
+
+.contents_wrapper {
+    margin: 0 auto;
+    padding: 0 3rem;
+    width: 100%;
+    max-width: 100rem;
+}
+
+.btn_wrapper a {
+    width: 100%;
+    max-width: 33rem;
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .contents_wrapper {
+        padding: 0 3rem;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    h1 {
+        font-size: 5rem;
+        padding-right: 1.6rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    h4 {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    
+    h5 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+}
+
+
+/* header */
+
+
+/* footer */
